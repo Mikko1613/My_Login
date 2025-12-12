@@ -1,8 +1,8 @@
 // Definiujemy użytkowników i hasła z odpowiadającymi im linkami
 const users = [
-    { username: "testuser", password: "1234", redirect: "https://www.youtube.com/watch?v=lKduL67IulI" },
-    { username: "user2", password: "abcd", redirect: "https://www.google.com" },
-    { username: "admin", password: "admin", redirect: "https://www.wikipedia.org" }
+    { username: "Marta", password: "1234", redirect: "https://www.youtube.com/watch?v=lKduL67IulI" },
+    { username: "Antek", password: "1234", redirect: "https://www.google.com" },
+    { username: "Mikołaj", password: "1234", redirect: "https://www.wikipedia.org" }
 ];
 
 // Pobranie formularza
@@ -24,3 +24,4 @@ form.addEventListener("submit", function(event) {
         alert("Niepoprawny login lub hasło!");
     }
 });
+
